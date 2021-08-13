@@ -1,5 +1,14 @@
 :tada: my Solutions for Princeton [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) , [`Part II`](https://www.coursera.org/learn/algorithms-part2/home/welcome) on Coursera
 
+&nbsp;
+
+[`Algorithms, 4th Edition`](https://algs4.cs.princeton.edu/home/)
+
+
+[`algs4-data`](https://algs4.cs.princeton.edu/code/algs4-data.zip): all Data Files used in the Textbook.
+
+[`my NOTEs`](https://github.com/tiiaan/ddup/blob/master/notes/%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95.md)
+
 
 &nbsp;
 &nbsp;
