@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdDraw;
 
 public class test {
     public static void main(String[] args) {
-        int n = 2;  // number of particles (default 20)
+        int n = 50;  // number of particles (default 20)
         if (args.length == 10) {
             n = Integer.parseInt(args[0]);
         }
