@@ -44,10 +44,9 @@ public class test {
 ```
 
 &nbsp;
-&nbsp;
 
-# Week 1
 `/hello/src/HelloWorld.java`
+
 ```java
 public class HelloWorld {
     public static void main(String[] args){
@@ -77,3 +76,25 @@ public class HelloGoodbye {
 ```java
 ```
 
+
+&nbsp;
+&nbsp;
+
+# Assignment 1: Percolation
+
+[`Percolation`](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php)
+
+## Model
+
+<div align=center>
+    <img src="https://cdn.jsdelivr.net/gh/tiiaan/cloudIMG@master/20210814145023.png" width="500">
+</div>
+
+
+<div align=center>
+    <img src="https://cdn.jsdelivr.net/gh/tiiaan/cloudIMG@master/20210814145413.png" width="700">
+</div>
+
+## Task
+
+## Solution
