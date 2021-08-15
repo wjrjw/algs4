@@ -26,5 +26,8 @@ hs_err_pid*
 *.mobi
 *.pdf
 
-# Data files
-algs4-data
+# Data 
+*.txt
+*.csv
+*.xls
+*.xlsx
