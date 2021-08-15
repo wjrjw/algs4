@@ -29,5 +29,6 @@ hs_err_pid*
 # Data 
 *.txt
 *.csv
+*.bin
 *.xls
 *.xlsx
