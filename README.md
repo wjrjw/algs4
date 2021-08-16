@@ -87,13 +87,13 @@ public class HelloGoodbye {
 ## Model
 
 <div align=center>
-    <img src="https://cdn.jsdelivr.net/gh/tiiaan/cloudIMG@master/20210814145023.png" width="500">
+	<img src="https://gitee.com/tiiaan/repo/raw/master/img/202108161611279.png" width="500">
 </div>
-
 
 <div align=center>
-    <img src="https://cdn.jsdelivr.net/gh/tiiaan/cloudIMG@master/20210814145413.png" width="700">
+	<img src="https://gitee.com/tiiaan/repo/raw/master/img/202108161611912.png" width="700">
 </div>
+
 
 ## Task
 
