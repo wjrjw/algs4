@@ -1,30 +1,30 @@
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class QuickUnionUF{
-    private int count;
+public class QuickUnionUF {
     private int[] id;
+    private int count;
     public QuickUnionUF(int n){
         count = n;
         id = new int[n];
-        for (int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++){
             id[i] = i;
         }
     }
     private int root(int i){
-        while(i != id[i]){
+        while(id[i] != i){
             i = id[i];
         }
         return i;
     }
+    public void union(int p, int q){
+        int pRoot = root(p);
+        int qRoot = root(q);
+        id[pRoot] = qRoot;
+        count--;
+    }
     public boolean connected(int p, int q){
         return root(p) == root(q);
-    }
-    public void union(int p, int q){
-        int i = root(p);
-        int j = root(q);
-        id[i] = j;
-        count--;
     }
     public int count(){
         return count;

@@ -207,12 +207,14 @@ public class QuickFindUF {
 }
 ```
 
-### quick-union
+### quick-union 
 
 - id[i] 是 i 所在分量的`父节点`，id[id[...id[i]...]] 是 i 的`根节点`
-- `树`和`森林`
+
 - 当且仅当`根节点`相同时，触点连通
-- union 操作将 p 树的根节点指向 q
+
+- union 操作将 p 树的根节点指向 q 树
+
 
 <div align=center>
 	<img src="https://gitee.com/tiiaan/repo/raw/master/img/202108201439120.png" width="500">

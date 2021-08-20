@@ -36,19 +36,15 @@ public class test {
 }
 ```
 
-&nbsp;
-
 # dir
 
 ```
 /algs4
 ----/assignments/ : 课后题源码
-----/demos/       : 示例、练习源码
+----/demos/       : 练习源码，每个示例（譬如BinarySearch）在idea按单独项目管理
 ----/notebook/    : 笔记、课后题思路
 ----/algs4.jar    : 官方包
 ```
-
-&nbsp;
 
 # finder
 
