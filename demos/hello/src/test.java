@@ -1,7 +1,6 @@
 import edu.princeton.cs.algs4.CollisionSystem;
 import edu.princeton.cs.algs4.Particle;
 import edu.princeton.cs.algs4.StdDraw;
-
 public class test {
     public static void main(String[] args) {
         int n = 50;  // number of particles (default 20)

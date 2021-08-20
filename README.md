@@ -5,8 +5,36 @@
 
 # env
 
-- 将 algs.jar 导入IDEA：File - Project Structure - Modules - Add - Apply -OK
+- 配置 Java 环境
+- 将 algs.jar 放到 Java 安装路径 lib 文件夹，比如我的：C:\Program Files\Java\jdk-16.0.1\lib
+- 将 algs4.jar 路径添加到系统变量 CLASSPATH
+- IDEA中导入刚刚的包：File - Project Structure - Modules - Add - Apply -OK
 - 运行测试程序
+
+`/algs4/demos/hello/src/test.java`
+```java
+import edu.princeton.cs.algs4.CollisionSystem;
+import edu.princeton.cs.algs4.Particle;
+import edu.princeton.cs.algs4.StdDraw;
+public class test {
+    public static void main(String[] args) {
+        int n = 50;  // number of particles (default 20)
+        if (args.length == 10) {
+            n = Integer.parseInt(args[0]);
+        }
+        // enable double buffering to support animations
+        StdDraw.enableDoubleBuffering();
+        // create the n particles
+        Particle[] particles = new Particle[n];
+        for (int i = 0; i < n; i++) {
+            particles[i] = new Particle();
+        }
+        // simulate the system
+        CollisionSystem system = new CollisionSystem(particles);
+        system.simulate(Double.POSITIVE_INFINITY);
+    }
+}
+```
 
 &nbsp;
 
