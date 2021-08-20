@@ -1,6 +1,5 @@
 :tada: my Solutions for Princeton [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) , [`Part II`](https://www.coursera.org/learn/algorithms-part2/home/welcome) on Coursera
 
-
 &nbsp;
 &nbsp;
 
@@ -9,7 +8,6 @@
 - 将 algs.jar 导入IDEA：File - Project Structure - Modules - Add - Apply -OK
 - 运行测试程序
 
-&nbsp;
 &nbsp;
 
 # dir
@@ -22,7 +20,6 @@
 ----/algs4.jar    : 官方包
 ```
 
-&nbsp;
 &nbsp;
 
 # finder
