@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8538d687-83f9-46e9-9381-f3f26d38aecb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Percolation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Percolation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/percolation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demos/hello/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../demos/hello/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demos/unionfind/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../demos/unionfind/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1wkfvwP2UYlqP8v8IvvTOAqIokg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,6 +29,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk-16.0.1/lib/algs4.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -170,7 +170,7 @@ public class UF{
 
 ### quick-find
 
-- 数组元素 id[x] 的值表示触点 x 所在分量
+- id[i] 是 i 所在分量
 - 当且仅当 id[p] == id[q] 时，p 和 q 连通
 - 在同一个连通分量中所有触点 id[] 的值必须`全部相同`
 - 若要合并两个分量，必须将两个集合中所有触点所对应的 id[] 元素变为同一个值
@@ -209,10 +209,14 @@ public class QuickFindUF {
 
 ### quick-union
 
-- 数组元素 id[x] 的值表示触点 x 所在分量的`父节点`
+- id[i] 是 i 所在分量的`父节点`，id[id[...id[i]...]] 是 i 的`根节点`
 - `树`和`森林`
 - 当且仅当`根节点`相同时，触点连通
+- union 操作将 p 树的根节点指向 q
 
+<div align=center>
+	<img src="https://gitee.com/tiiaan/repo/raw/master/img/202108201439120.png" width="500">
+</div>
 
 ```java
 ```
