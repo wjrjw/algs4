@@ -48,7 +48,6 @@ public class test {
 ----/algs4.jar    : 官方包
 ```
 
-# finder
 
 [`Algorithms, 4th Edition`](https://algs4.cs.princeton.edu/home/)
 
