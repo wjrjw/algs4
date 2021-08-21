@@ -1,30 +1,29 @@
-import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
-
+import edu.princeton.cs.algs4.StdIn;
 public class QuickUnionUF {
-    private int[] id;
     private int count;
+    private int[] id;
     public QuickUnionUF(int n){
-        count = n;
         id = new int[n];
+        count = n;
         for(int i = 0; i < n; i++){
             id[i] = i;
         }
     }
-    private int root(int i){
-        while(id[i] != i){
-            i = id[i];
+    public int root(int x){
+        while(id[x] != x){
+            x = id[x];
         }
-        return i;
+        return x;
+    }
+    public boolean connected(int p, int q){
+        return root(p) == root(q);
     }
     public void union(int p, int q){
         int pRoot = root(p);
         int qRoot = root(q);
         id[pRoot] = qRoot;
         count--;
-    }
-    public boolean connected(int p, int q){
-        return root(p) == root(q);
     }
     public int count(){
         return count;
@@ -41,6 +40,6 @@ public class QuickUnionUF {
             uf.union(p, q);
             StdOut.println(p + " " + q);
         }
-        StdOut.println(uf.count() + "components");
+        StdOut.println(uf.count() + " components");
     }
 }

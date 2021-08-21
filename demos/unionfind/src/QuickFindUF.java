@@ -1,37 +1,33 @@
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
-
 public class QuickFindUF {
     private int count;
     private int[] id;
     public QuickFindUF(int n){
-        count = n;
         id = new int[n];
-        for (int i = 0; i < n; i++){
+        count = n;
+        for(int i = 0; i < n; i++){
             id[i] = i;
         }
     }
-    public int find(int p){
-        return (id[p]);
+    public int find(int x){
+        return id[x];
+    }
+    public boolean connected(int p, int q){
+        return id[p]==id[q];
+    }
+    public int count(){
+        return count;
     }
     public void union(int p, int q){
-        int pID = find(p);
-        int qID = find(q);
-        if (pID == qID){
-            return;
-        }
-        for (int i = 0; i < id.length; i++){
-            if (id[i] == pID){
+        int pID = id[p];
+        int qID = id[q];
+        for(int i = 0; i < id.length; i++){
+            if(id[i] == pID){
                 id[i] = qID;
             }
         }
         count--;
-    }
-    public boolean connected(int p, int q){
-        return (find(p) == find(q));
-    }
-    public int count(){
-        return count;
     }
     public static void main(String[] args){
         int n = StdIn.readInt();
@@ -45,6 +41,6 @@ public class QuickFindUF {
             uf.union(p, q);
             StdOut.println(p + " " + q);
         }
-        StdOut.println(uf.count() + "components");
+        StdOut.println(uf.count() + " components");
     }
 }

@@ -14,7 +14,6 @@ public class UF {
             size[i] = 1;
         }
     }
-
     public void union(int p, int q) {
         int rootP = find(p);
         int rootQ = find(q);
@@ -30,7 +29,6 @@ public class UF {
         }
         count--;
     }
-
     public int find(int x) {
         while (parent[x] != x) {
             parent[x] = parent[parent[x]];
@@ -38,15 +36,12 @@ public class UF {
         }
         return x;
     }
-
     public boolean connected(int p, int q) {
         return find(p) == find(q);
     }
-
     public int count() {
         return count;
     }
-
     public static void main(String[] args) {
         int n = StdIn.readInt();
         UF uf = new UF(n);
@@ -59,6 +54,6 @@ public class UF {
             uf.union(p, q);
             StdOut.println(p + " " + q);
         }
-        StdOut.println(uf.count() + "components");
+        StdOut.println(uf.count() + " components");
     }
 }
