@@ -1,4 +1,4 @@
-:tada: my Solutions for Princeton [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) , [`Part II`](https://www.coursera.org/learn/algorithms-part2/home/welcome) on Coursera
+:tada: base:   Princeton [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) , [`Part II`](https://www.coursera.org/learn/algorithms-part2/home/welcome) on Coursera
 
 :rocket: finder:   [`Algorithms, 4th`](https://algs4.cs.princeton.edu/home/)   [`algs4-data`](https://algs4.cs.princeton.edu/code/algs4-data.zip)   [`my NOTEs`](https://github.com/tiiaan/algs4/blob/master/notebook/BasicAlgorithm.md)
 
@@ -7,7 +7,7 @@
 &nbsp;
 &nbsp;
 
-# env
+### 环境配置
 
 - 配置 Java 环境
 - 将 algs.jar 放到 Java 安装路径 lib 文件夹，比如我的：C:\Program Files\Java\jdk-16.0.1\lib
@@ -40,7 +40,7 @@ public class test {
 }
 ```
 
-# dir
+### 目录结构
 
 ```
 /algs4
