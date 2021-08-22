@@ -8,7 +8,11 @@ tags:
 math: false
 ---
 
-:tada: 我的算法学习仓库
+:tada: 我的算法学习仓库 [`git@github.com:tiiaan/algs4.git`](https://github.com/tiiaan/algs4)
+
+&nbsp;
+
+### 问题描述
 
 `动态连通性`（Dynamic Connectivity）问题的输入是整数对 (p, q) ，表示 p 和 q 相连通。
 
