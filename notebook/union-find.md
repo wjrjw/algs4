@@ -3,8 +3,7 @@ title: Union-Find并查集算法详解
 date: 2021/8/22 14:29:30
 summary: 
 categories: Algorithm
-tags:
-  - UF
+tags: UF
 math: false
 ---
 
