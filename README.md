@@ -1,6 +1,6 @@
 :tada: base:   Princeton [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) , [`Part II`](https://www.coursera.org/learn/algorithms-part2/home/welcome) on Coursera
 
-:rocket: finder:   [`Algorithms, 4th`](https://algs4.cs.princeton.edu/home/)   [`algs4-data`](https://algs4.cs.princeton.edu/code/algs4-data.zip)   [`my NOTEs`](https://github.com/tiiaan/algs4/blob/master/notebook/BasicAlgorithm.md)
+:rocket: finder:   [`Algorithms, 4th`](https://algs4.cs.princeton.edu/home/)   [`algs4-API-Docs`](https://algs4.cs.princeton.edu/code/javadoc/)   [`algs4-data`](https://algs4.cs.princeton.edu/code/algs4-data.zip)   [`my NOTEs`](https://github.com/tiiaan/algs4/blob/master/notebook/BasicAlgorithm.md)
 
 ![](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)   ![](https://img.shields.io/github/stars/tiiaan/alzheimer?style=social)
 
