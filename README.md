@@ -1,6 +1,6 @@
 :tada: base:   Princeton [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) , [`Part II`](https://www.coursera.org/learn/algorithms-part2/home/welcome) on Coursera
 
-:rocket: finder:   [`Algorithms, 4th`](https://algs4.cs.princeton.edu/home/)   [`algs4-API-Docs`](https://algs4.cs.princeton.edu/code/javadoc/)   [`algs4-data`](https://algs4.cs.princeton.edu/code/algs4-data.zip)   [`my NOTEs`](https://github.com/tiiaan/algs4/blob/master/notebook/BasicAlgorithm.md)
+:rocket: finder:   [`Algorithms, 4th`](https://algs4.cs.princeton.edu/home/)   [`algs4-API-Docs`](https://algs4.cs.princeton.edu/code/javadoc/)   [`algs4-data`](https://algs4.cs.princeton.edu/code/algs4-data.zip)   [`my BLOG`](https://wonghaotian.com/)
 
 ![](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)   ![](https://img.shields.io/github/stars/tiiaan/alzheimer?style=social)
 
@@ -42,11 +42,14 @@ public class test {
 
 ### 目录结构
 
-```
+```shell
 /algs4
 ----/assignments/ : 课后题源码
-----/demos/       : 练习源码，每个示例（譬如BinarySearch）在idea按单独项目管理
+----/demos/       : 练习源码
 ----/notebook/    : 笔记、课后题思路
 ----/algs4.jar    : 官方包
 ```
 
+### 阅读导航
+
+- [Union-Find 并查集算法与应用详解]()
