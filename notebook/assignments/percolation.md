@@ -209,3 +209,7 @@ public class PercolationVisualizer {
     }
 }
 ```
+
+<div align=center>
+	<img src="https://gitee.com/tiiaan/repo/raw/master/img/202108251636701.png" width="500">
+</div>
