@@ -4,14 +4,14 @@
 ---
 
 
- specification link: [`percolation`](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php)
+这是 Coursera 上普林斯顿算法公开课  [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) 第一周的作业，详细描述参见 [`percolation`](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php)。
 
- my repo: [`algs4`](https://github.com/tiiaan/algs4), welcome to star!
+相关源码在我的算法学习仓库 [`tiiaan/algs4`](https://github.com/tiiaan/algs4)，欢迎 :star: ！
 
- 
+
+
 完整程序如下：
-
-`Percolation.java`
+[`Percolation.java`](https://github.com/tiiaan/algs4/blob/87d21861ab1235c74d852ff32ffdcae6a0b5aeda/assignments/percolation/src/Percolation.java)
 
 ```java
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
