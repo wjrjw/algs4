@@ -1,4 +1,8 @@
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
+/**
+ * @author  tiiaan
+ * @version 1.0
+ */
 public class Percolation {
     private final boolean[] state;
     private int n;
@@ -39,26 +43,25 @@ public class Percolation {
         if(row == 1){
             ufAct.union(0, cur);
             ufVir.union(0,cur);
+        }else if(row == n){
+            ufVir.union(cur, n * n + 1);
         }else{
-            if(col != 1 && isOpen(row, col - 1)){
+            if (col != 1 && isOpen(row, col - 1)) {
                 ufAct.union(cur, cur - 1);
                 ufVir.union(cur, cur - 1);
             }
-            if(col != n && isOpen(row, col + 1)){
+            if (col != n && isOpen(row, col + 1)) {
                 ufAct.union(cur, cur + 1);
                 ufVir.union(cur, cur + 1);
             }
-            if(isOpen(row - 1, col)){
+            if (isOpen(row - 1, col)) {
                 ufAct.union(cur, cur - n);
                 ufVir.union(cur, cur - n);
             }
-            if(row != n && isOpen(row + 1, col)){
+            if (isOpen(row + 1, col)) {
                 ufAct.union(cur, cur + n);
                 ufVir.union(cur, cur + n);
             }
-        }
-        if(row == n){
-            ufVir.union(cur, n * n + 1);
         }
     }
 
