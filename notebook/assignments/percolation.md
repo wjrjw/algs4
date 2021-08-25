@@ -1,3 +1,19 @@
+---
+ title: Percolation渗滤模型算法解析
+ tag: 
+---
+
+
+ specification link: [`percolation`](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php)
+
+ my repo: [`algs4`](https://github.com/tiiaan/algs4), welcome to star!
+
+ 
+完整程序如下：
+
+`Percolation.java`
+
+```java
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 /**
  * @author  tiiaan
@@ -115,3 +131,81 @@ public class Percolation {
         return ufVir.find(0) == ufVir.find(n * n + 1);
     }
 }
+```
+
+`PercolationStats.java`
+```java
+
+```
+
+Shell 运行可视化测试
+
+```shell
+java PercolationVisualizer backwash.txt
+```
+
+`PercolationVisualizer.java`
+```java
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdDraw;
+import java.awt.Font;
+public class PercolationVisualizer {
+    private static final int DELAY = 5;
+    public static void draw(Percolation perc, int N) {
+        StdDraw.clear();
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.setXscale(0, N);
+        StdDraw.setYscale(0, N);
+        StdDraw.filledSquare(N/2.0, N/2.0, N/2.0);
+        int opened = 0;
+        for (int row = 1; row <= N; row++) {
+            for (int col = 1; col <= N; col++) {
+                if (perc.isFull(row, col)) {
+                    StdDraw.setPenColor(StdDraw.BOOK_LIGHT_BLUE);
+                    opened++;
+                }
+                else if (perc.isOpen(row, col)) {
+                    StdDraw.setPenColor(StdDraw.WHITE);
+                    opened++;
+                }
+                else{
+                    StdDraw.setPenColor(StdDraw.BLACK);
+                }
+                StdDraw.filledSquare(col - 0.5, N - row + 0.5, 0.45);
+            }
+        }
+
+        StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 12));
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.text(.25*N, -N*.025, opened + " open sites");
+        if (perc.percolates()) {
+            StdDraw.text(.75*N, -N*.025, "percolates");
+        }
+        else {
+            StdDraw.text(.75*N, -N*.025, "does not percolate");
+        }
+    }
+
+    public static void main(String[] args) {
+        In in = new In(args[0]);
+        int N = in.readInt();
+        StdDraw.show();
+        StdDraw.pause(0);
+        StdDraw.enableDoubleBuffering();
+        Percolation perc = new Percolation(N);
+        draw(perc, N);
+        StdDraw.show();
+        StdDraw.pause(DELAY);
+        StdDraw.enableDoubleBuffering();
+        while (!in.isEmpty()) {
+            int i = in.readInt();
+            int j = in.readInt();
+            perc.open(i, j);
+            draw(perc, N);
+            StdDraw.show();
+            StdDraw.pause(DELAY);
+            StdDraw.enableDoubleBuffering();
+        }
+    }
+}
+```

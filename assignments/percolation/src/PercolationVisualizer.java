@@ -1,24 +1,8 @@
-/****************************************************************************
- *  Compilation:  javac PercolationVisualizer.java
- *  Execution:    java PercolationVisualizer input.txt
- *  Dependencies: Percolation.java StdDraw.java In.java
- *
- *  This program takes the name of a file as a command-line argument.
- *  From that file, it
- *
- *    - Reads the grid size N of the percolation system.
- *    - Creates an N-by-N grid of sites (intially all blocked)
- *    - Reads in a sequence of sites (row i, column j) to open.
- *
- *  After each site is opened, it draws full sites in light blue,
- *  open sites (that aren't full) in white, and blocked sites in black,
- *  with with site (1, 1) in the upper left-hand corner.
- ****************************************************************************/
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdDraw;
 import java.awt.Font;
 public class PercolationVisualizer {
-    private static final int DELAY = 100;
+    private static final int DELAY = 5;
     public static void draw(Percolation perc, int N) {
         StdDraw.clear();
         StdDraw.setPenColor(StdDraw.BLACK);
@@ -57,16 +41,22 @@ public class PercolationVisualizer {
     public static void main(String[] args) {
         In in = new In(args[0]);
         int N = in.readInt();
-        StdDraw.show(0);
+        StdDraw.show();
+        StdDraw.pause(0);
+        StdDraw.enableDoubleBuffering();
         Percolation perc = new Percolation(N);
         draw(perc, N);
-        StdDraw.show(DELAY);
+        StdDraw.show();
+        StdDraw.pause(DELAY);
+        StdDraw.enableDoubleBuffering();
         while (!in.isEmpty()) {
             int i = in.readInt();
             int j = in.readInt();
             perc.open(i, j);
             draw(perc, N);
-            StdDraw.show(DELAY);
+            StdDraw.show();
+            StdDraw.pause(DELAY);
+            StdDraw.enableDoubleBuffering();
         }
     }
 }
