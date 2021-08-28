@@ -7,7 +7,14 @@ tags: UF
 math: false
 ---
 
-:tada: 我的算法学习仓库 [`git@github.com:tiiaan/algs4.git`](https://github.com/tiiaan/algs4)
+相关源码在我的算法学习仓库 [`tiiaan/algs4`](https://github.com/tiiaan/algs4)，欢迎 :star: ！
+
+```shell
+git clone git@github.com:tiiaan/algs4.git
+```
+
+
+
 
 &nbsp;
 
