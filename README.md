@@ -53,3 +53,7 @@ public class test {
 ### 阅读导航
 
 - [Union-Find 并查集算法与应用详解]()
+
+
+
+[![](https://shumihao.com/wp-content/uploads/2021/09/images.mobilism-1.jpg)](https://shumihao.com/mag/economist/%e7%bb%8f%e6%b5%8e%e5%ad%a6%e4%ba%ba-the-economist-september-04-2021/)
