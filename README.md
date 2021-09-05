@@ -51,5 +51,3 @@ public class test {
 ```
 
 ### 阅读导航
-
-- [Union-Find 并查集算法与应用详解]()
