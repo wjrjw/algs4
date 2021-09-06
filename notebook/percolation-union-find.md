@@ -1,12 +1,3 @@
----
-title: 渗滤模型与并查集算法详解
-date: 2021/8/22 14:29:30
-summary: 
-categories: Algorithm
-tags: UF
-math: false
----
-
 [`percolation`](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php) 渗滤问题是 Coursera 上普林斯顿算法公开课  [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) 第一周的作业
 
 相关源码在我的算法学习仓库 [`tiiaan/algs4`](https://github.com/tiiaan/algs4)，欢迎 :star: ！
