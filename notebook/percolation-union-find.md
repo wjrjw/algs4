@@ -1,10 +1,8 @@
-[`percolation`](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php) 渗滤问题是 Coursera 上普林斯顿算法公开课  [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) 第一周的作业
+本文源码同步备份在我的算法学习仓库 [`tiiaan/algs4`](https://github.com/tiiaan/algs4)，另有解题仓库 [`tiiaan/leetcode`](https://github.com/tiiaan/leetcode)，欢迎 :star:
 
-相关源码在我的算法学习仓库 [`tiiaan/algs4`](https://github.com/tiiaan/algs4)，欢迎 :star: ！
+&nbsp;
 
-```shell
-git clone git@github.com:tiiaan/algs4.git
-```
+讨论这个算法前先看一个例子，Coursera 上普林斯顿算法公开课  [`Algorithms Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome) 第一周的作业 [`percolation`](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php) 渗滤问题
 
 &nbsp;
 
