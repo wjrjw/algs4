@@ -2,7 +2,7 @@ import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdIn;
 public class QuickUnionUF {
     private int count;
-    private int[] id;
+    private final int[] id;
     public QuickUnionUF(int n){
         id = new int[n];
         count = n;
@@ -31,10 +31,10 @@ public class QuickUnionUF {
     public static void main(String[] args){
         int n = StdIn.readInt();
         QuickUnionUF uf = new QuickUnionUF(n);
-        while(!StdIn.isEmpty()){
+        while(!StdIn.isEmpty()) {
             int p = StdIn.readInt();
             int q = StdIn.readInt();
-            if(uf.connected(p, q)){
+            if (uf.connected(p, q)) {
                 continue;
             }
             uf.union(p, q);
@@ -43,3 +43,9 @@ public class QuickUnionUF {
         StdOut.println(uf.count() + " components");
     }
 }
+
+/*
+cd src
+javac QuickUnionUF.java
+java QuickUnionUF < tinyUF.txt
+*/
