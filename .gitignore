@@ -16,6 +16,7 @@
 
 # Package Files #
 *.zip
+*.jar
 *.tar.gz
 *.rar
 
