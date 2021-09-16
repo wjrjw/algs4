@@ -1,4 +1,4 @@
-# Algs4 ([Algorithms, 4th](https://algs4.cs.princeton.edu/home/))
+# [Algs4](https://algs4.cs.princeton.edu/home/)
 
 ![](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)   ![](https://img.shields.io/github/stars/tiiaan/algs4?style=social)
 
