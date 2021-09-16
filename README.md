@@ -28,14 +28,12 @@ javac-algs4 test.java
 java-algs4 test
 ```
 
-### 目录结构
+### FileTree
 
 ```shell
-/algs4
-----/assignments/ : 课后题源码
-----/demos/       : 练习源码
-----/notebook/    : 笔记、课后题思路
-----/algs4.jar    : 官方包
+algs4
+├── assignments
+├── demos
+├── notebook
+└── README.md
 ```
-
-### 阅读导航
