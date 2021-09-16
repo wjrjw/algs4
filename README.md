@@ -1,6 +1,6 @@
 # [Algs4](https://algs4.cs.princeton.edu/home/)
 
-![](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)   ![](https://img.shields.io/github/stars/tiiaan/algs4?style=social)
+![](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green)   ![](https://img.shields.io/github/stars/tiiaan/algs4?style=social)
 
 [`Princeton Algs4 Part I`](https://www.coursera.org/learn/algorithms-part1/home/welcome)   [`Part II`](https://www.coursera.org/learn/algorithms-part2/home/welcome)   [`algs4-API-Docs`](https://algs4.cs.princeton.edu/code/javadoc/)   [`algs4-data`](https://algs4.cs.princeton.edu/code/algs4-data.zip)
 
